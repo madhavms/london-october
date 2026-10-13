@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Sculpture to the Lights · Sat 17 Oct 2026</title>
-<meta name="description" content="One cold-weather day in London: Frieze Sculpture in Regent's Park, lunch at the Wallace, the National Gallery, the South Bank on the Film Festival's closing weekend, and sunset from Waterloo Bridge.">
+<title>Clay, Sky &amp; Spice · Sat 17 Oct 2026</title>
+<meta name="description" content="One London Saturday: Wallace &amp; Gromit at Lightroom, a Borough Market grazing lunch, Leadenhall, Horizon 22 on level 58, and Brick Lane at blue hour.">
 <meta name="theme-color" content="#1a120c">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,7 +81,7 @@
   /* hero — cinematic */
   header.hero{position:relative;color:#f2f4ef;overflow:hidden;background:linear-gradient(160deg,var(--hero-a),var(--hero-b));
     min-height:min(92svh,980px);display:flex;align-items:flex-end}
-  header.hero .bg{position:absolute;inset:-4%;background-image:url("img/frieze.jpg");background-size:cover;background-position:center 30%;opacity:.55;
+  header.hero .bg{position:absolute;inset:-4%;background-image:url("img/leadenhall.jpg");background-size:cover;background-position:center 30%;opacity:.55;
     animation:kenburns 26s ease-in-out infinite alternate}
   @keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.09)}}
   @media (prefers-reduced-motion:reduce){header.hero .bg{animation:none}}
@@ -90,7 +90,7 @@
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E")}
   header.hero .frame{position:absolute;inset:18px;border:1px solid rgba(242,212,146,.28);pointer-events:none;border-radius:2px}
   @media (max-width:640px){header.hero .frame{inset:10px}}
-  header.hero .inner{position:relative;padding:110px 0 84px;width:100%}
+  header.hero .inner{position:relative;padding:110px 22px 84px;width:100%}
   header.hero .eyebrow{color:#f2d492;display:inline-flex;align-items:center;gap:14px}
   header.hero .eyebrow::before{content:"";width:44px;height:1px;background:#f2d492;opacity:.7}
   header.hero h1{font-family:var(--serif);font-weight:560;font-size:clamp(3.2rem,10.5vw,7rem);letter-spacing:-.01em;line-height:.98;
@@ -295,7 +295,7 @@
   @media (max-width:820px){nav.top .row{display:none}}
   @media (prefers-reduced-motion:reduce){.drawer,.scrim{transition:none}}
   /* --- October additions --- */
-  header.hero .bg{background-image:url("img/frieze.jpg");background-position:center 55%}
+  header.hero .bg{background-image:url("img/leadenhall.jpg");background-position:center 55%}
   .trains .eve{border-color:rgba(147,112,219,.7);background:rgba(70,45,120,.35)}
   .wx{padding:46px 0 10px}
   .wxgrid{display:grid;grid-template-columns:repeat(9,1fr);gap:8px;margin-top:18px}
@@ -331,15 +331,15 @@
 
 <nav class="top">
   <div class="inner">
-    <span class="brand">Sculpture to the Lights</span>
+    <span class="brand">Clay, Sky &amp; Spice</span>
     <div class="row">
       <a href="#weather">Weather</a>
-      <a href="#c1">The Park</a>
-      <a href="#c2">Marylebone</a>
-      <a href="#c3">The River</a>
-      <a href="#c4">Evening</a>
-      <a href="#onday">Also on</a>
-      <a href="#prep">Before the day</a>
+      <a href="#c1">King&rsquo;s Cross</a>
+      <a href="#c2">Borough</a>
+      <a href="#c3">The Sky</a>
+      <a href="#c4">Brick Lane</a>
+      <a href="#swap">Swap-ins</a>
+      <a href="#prep">Prep</a>
     </div>
     <button class="menuBtn" id="menuBtn" aria-controls="drawer" aria-expanded="false"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>Menu</button>
     <button id="themeBtn" title="Toggle light/dark">◐</button>
@@ -352,11 +352,11 @@
   <div class="dsec"><span class="dlab">Chapters</span></div>
   <div class="dlinks">
     <a href="#weather">The weather</a>
-    <a href="#c1">I · The Park</a>
-    <a href="#c2">II · Marylebone</a>
-    <a href="#c3">III · The River</a>
-    <a href="#c4">IV · The Evening</a>
-    <a href="#onday">Also on that day</a>
+    <a href="#c1">I · King&rsquo;s Cross</a>
+    <a href="#c2">II · Borough</a>
+    <a href="#c3">III · The Sky</a>
+    <a href="#c4">IV · Brick Lane</a>
+    <a href="#swap">Swap-ins &amp; what else is on</a>
     <a href="#prep">Before the day</a>
   </div>
 </aside>
@@ -365,12 +365,12 @@
   <div class="bg"></div><div class="veil"></div><div class="frame"></div>
   <div class="wrap inner hero-reveal">
     <span class="eyebrow">One day · Saturday 17 October 2026</span>
-    <h1>Sculpture<br>to the Lights</h1>
-    <p class="sub">A cold-weather London day for two, no hills required</p>
-    <p class="lede">Down from Wilmslow again, and this time no trek. Sculptures under the autumn trees in Regent&rsquo;s Park, a long lunch in a glass-roofed courtyard, two paintings having a conversation across 250 years, the South Bank on the Film Festival&rsquo;s closing weekend, and the river turning gold from Waterloo Bridge at sunset. Then the Elizabeth line out to her aunt&rsquo;s.</p>
+    <h1>Clay, Sky<br>&amp; Spice</h1>
+    <p class="sub">London turned up loud, with a coat on</p>
+    <p class="lede">No trek this time. Instead she steps off the train into Wallace &amp; Gromit, four days after it opens, projected eleven metres tall. Then a grazing lunch through Borough Market on its busiest day, and Diagon Alley&rsquo;s real-life roof. After that, level 58 of the tallest tower in the City, for free. It ends in Brick Lane&rsquo;s graffiti yards with chilli hot chocolate and a curry, a five-minute walk from her train to Brentwood.</p>
     <div class="trains">
       <span>Arrive <b>11:27</b> Euston</span>
-      <span class="eve">Evening <b>~19:15</b> to Brentwood</span>
+      <span class="eve">Out <b>~19:45</b> Liverpool St</span>
     </div>
   </div>
   <a id="cue" href="#route" aria-label="Scroll">↓</a>
@@ -379,21 +379,21 @@
 <div class="route" id="route">
   <div class="wrap rwrap">
     <span class="rnode"><b>11:27</b>Euston</span><span class="rline"></span>
-    <span class="rnode"><b>12:00</b>Frieze Sculpture</span><span class="rline"></span>
-    <span class="rnode"><b>13:15</b>Wallace</span><span class="rline"></span>
-    <span class="rnode"><b>15:40</b>National Gallery</span><span class="rline"></span>
-    <span class="rnode"><b>16:20</b>South Bank</span><span class="rline"></span>
-    <span class="rnode"><b>17:45</b>Waterloo Bridge</span><span class="rline"></span>
-    <span class="rnode"><b>18:15</b>Covent Garden</span><span class="rline"></span>
-    <span class="rnode dep"><b>19:15</b>Elizabeth line</span>
+    <span class="rnode"><b>12:00</b>Wallace &amp; Gromit</span><span class="rline"></span>
+    <span class="rnode"><b>13:25</b>Borough Market</span><span class="rline"></span>
+    <span class="rnode"><b>15:05</b>Leadenhall</span><span class="rline"></span>
+    <span class="rnode"><b>15:45</b>Horizon 22</span><span class="rline"></span>
+    <span class="rnode"><b>17:05</b>Spitalfields</span><span class="rline"></span>
+    <span class="rnode"><b>18:30</b>Gunpowder</span><span class="rline"></span>
+    <span class="rnode dep"><b>19:45</b>Elizabeth line</span>
   </div>
 </div>
 
 <div class="wrap facts">
-  <div><div class="k">Weather</div><div class="v">8 – 13°C, dry</div><div class="d">Sunny morning, cloud later</div></div>
-  <div><div class="k">On foot</div><div class="v">About 6 km</div><div class="d">Flat, all pavement</div></div>
-  <div><div class="k">Lunch</div><div class="v">13:15</div><div class="d">The Wallace — book it</div></div>
-  <div><div class="k">Sunset</div><div class="v">18:03</div><div class="d">Watched from Waterloo Bridge</div></div>
+  <div><div class="k">Weather</div><div class="v">8 – 13°C, dry</div><div class="d">Bright morning, cloud later</div></div>
+  <div><div class="k">On foot</div><div class="v">About 5 km</div><div class="d">Flat, broken up by two rides</div></div>
+  <div><div class="k">To book</div><div class="v">Three things</div><div class="d">Lightroom, Horizon 22, dinner</div></div>
+  <div><div class="k">Sunset</div><div class="v">18:03</div><div class="d">Brick Lane at blue hour</div></div>
 </div>
 
 <div class="wrap">
@@ -411,207 +411,207 @@
     <div class="h"><div class="t">18:00</div><div class="i">⛅</div><div class="c">11°</div><div class="r">10%</div></div>
     <div class="h"><div class="t">19:00</div><div class="i">🌤️</div><div class="c">11°</div><div class="r">8%</div></div>
   </div>
-  <p class="wxnote"><b>Cold but kind.</b> Dry all day, with the sun out exactly when you are in the park and cloud arriving once you are indoors with the paintings. It drops to about 8°C by night and there is a light breeze, so the bridge at sunset will feel colder than the number. Proper coat, scarf, and gloves for the bridge. The blue figures are the chance of rain.</p>
-  <p class="sources">Forecast from Open-Meteo for central London, checked Tuesday 13 October. Look again on Friday night; four days out it can still move.</p>
+  <p class="wxnote"><b>Cold, dry and built for it.</b> Every big stop is indoors or under a roof: Lightroom, Borough&rsquo;s market halls, Leadenhall&rsquo;s glass roof, a glass box 58 floors up, and Spitalfields&rsquo; covered market. The outdoor bits are short walks between them. Wear a proper coat. It is about 8°C by the evening in Brick Lane. The blue figures are the chance of rain.</p>
+  <p class="sources">Forecast from Open-Meteo for central London, checked Tuesday 13 October. Look again on Friday night.</p>
 </section>
 
 <section class="leg" id="c1">
-  <header class="chapter" style="--img:url('img/frieze.jpg')">
+  <header class="chapter" style="--img:url('img/coaldrops.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
     <span class="chnum">I</span>
-    <div class="chin"><span class="eyebrow">Chapter one · 11:27 – 12:50</span><h2>The Park</h2><p>Off the train and fifteen minutes on foot to eleven sculptures standing in the autumn leaves.</p></div>
+    <div class="chin"><span class="eyebrow">Chapter one · 11:27 – 13:10</span><h2>King&rsquo;s Cross</h2><p>Ten minutes from the platform she&rsquo;s inside a cracking piece of cheese-loving animation, four storeys high.</p></div>
   </header>
   <div class="tl">
 
     <div class="alert"><b>The trains are different this weekend</b>
-      <p>The West Coast line is shut between Rugby and Stafford on 17 and 18 October, so Avanti is running Manchester trains the long way round through Birmingham. They no longer stop at Wilmslow and they take over three hours. Check her actual ticket against the times below.</p></div>
+      <p>The West Coast line is shut between Rugby and Stafford on 17 and 18 October. Avanti is sending Manchester trains the long way through Birmingham. They skip Wilmslow and take over three hours. Check her ticket against the times below.</p></div>
 
     <div class="stop major rv"><span class="gnum"></span>
     <div class="when">11:27</div>
     <h3>Wilmslow → Euston</h3>
-    <p class="lede">The simplest way in is a short hop to Stockport and the diverted Avanti from there. It is a long sit, so a book and breakfast on board.</p>
+    <p class="lede">A short hop to Stockport, then the diverted Avanti from there.</p>
     <table class="ttable">
       <tr><td>07:50</td><td>Wilmslow, Transport for Wales train towards Manchester</td></tr>
       <tr><td>08:00</td><td>Stockport, change here</td></tr>
       <tr><td>08:24</td><td>Stockport, Avanti to London Euston, via Birmingham</td></tr>
       <tr><td>11:27</td><td>London Euston</td></tr>
     </table>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>The same Avanti train starts at Manchester Piccadilly at 08:14, if she would rather board there.</li><li>The train before gets in at 10:32. The one after gets in at 12:20, which would mean starting the plan at lunch.</li><li>Times come from Realtime Trains, checked 13 October. Engineering timetables can still be adjusted, so check National Rail on Friday.</li></ul></div></details>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>The same train starts at Manchester Piccadilly at 08:14. The one before gets in at 10:32, and the one after gets in at 12:20.</li><li>Times are from Realtime Trains, checked 13 October. Check National Rail again on Friday.</li></ul></div></details>
     <div class="links"><a href="https://www.nationalrail.co.uk/" target="_blank" rel="noopener">Live times</a> <a href="https://www.networkrailmediacentre.co.uk/news/west-coast-main-line-passengers-urged-to-check-before-travelling-over-next-two-weekends" target="_blank" rel="noopener">The closure</a></div>
     </div>
 
     <div class="stop rv"><span class="gnum"></span>
     <div class="when">11:35</div>
-    <h3>Walk to the park</h3>
-    <p class="lede">Out of the front of Euston, west along Euston Road, and up through the white stucco of Park Square into Regent&rsquo;s Park. About fifteen minutes on foot and a good way to wake the legs up after three hours sitting down.</p>
-    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=London+Euston+Station&amp;destination=English+Gardens%2C+Regent%27s+Park%2C+London&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a></div>
+    <h3>Platform 9¾, on the way</h3>
+    <span class="chip">Optional photo</span>
+    <p class="lede">Euston to King&rsquo;s Cross is an eight-minute walk east along Euston Road. Inside King&rsquo;s Cross is the trolley vanishing into the wall from Harry Potter. Staff hand you a house scarf and photograph the leap. There is usually a queue, so take your own photo from the side if it is long.</p>
+    <figure><img src="img/platform934.jpg" alt="The Platform 9 3/4 trolley in the wall at King's Cross" loading="lazy"><figcaption>Platform 9¾, King&rsquo;s Cross concourse</figcaption></figure>
+    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=London+Euston+Station&amp;destination=Lightroom%2C+12+Lewis+Cubitt+Square%2C+London+N1C+4DY&amp;waypoints=King%27s+Cross+Station&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a></div>
     </div>
 
     <div class="stop major rv"><span class="gnum"></span>
     <div class="when">12:00</div>
-    <h3>Frieze Sculpture</h3>
-    <span class="chip free">Free · no booking</span>
-    <p class="lede">Every autumn the Frieze art fair puts big outdoor sculpture into the English Gardens of Regent&rsquo;s Park. This year it is eleven artists, including Conrad Shawcross and Tarini Sethi. Fair week is this week, so the park has a buzz to it, and with the leaves turning it is the best-looking free exhibition in London.</p>
-    <figure><img src="img/frieze.jpg" alt="A silver sculpture among autumn trees at Frieze Sculpture in Regent's Park" loading="lazy"><figcaption>Frieze Sculpture in the English Gardens, Regent&rsquo;s Park</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>It runs 16 September to 1 November, open whenever the park is. Forty-five minutes is enough to see all eleven.</li><li>The paid Frieze London fair is in tents further into the park until Sunday. It is expensive and crowded, and the outdoor sculpture is the better half for a day like this.</li><li>This is the sunniest hour of the forecast, so it is the right time for the one long stretch outdoors.</li></ul></div></details>
-    <div class="links"><a href="https://www.frieze.com/article/frieze-sculpture-2026-announcement" target="_blank" rel="noopener">About it</a> <a href="https://maps.google.com/?q=English+Gardens+Regent%27s+Park+London" target="_blank" rel="noopener">On map</a></div>
+    <h3>Wallace &amp; Gromit, Larger Than Life</h3>
+    <span class="chip book">Book the 12:00 slot</span>
+    <p class="lede">The headline of the day, and it opened on Wednesday. Lightroom is a huge box behind King&rsquo;s Cross with eleven-metre walls and a floor that are all projection. For Aardman&rsquo;s 50th birthday, it is filled with Wallace &amp; Gromit, Shaun the Sheep and the rest. That includes the train chase from <i>The Wrong Trousers</i> at full size, and new stop-motion made just for this room. You sit or wander inside it.</p>
+    <details class="more" open><summary>Good to know</summary><div class="body"><ul><li>Adults from £25, plus a £2 fee per order. Slots run every half hour. Arrive no more than 15 minutes early.</li><li>The show is a 50-minute loop with no fixed start, and you can stay for a second loop if there is space.</li><li>Lightroom is at 12 Lewis Cubitt Square, N1C 4DY. Book on lightroom.uk directly, not a reseller.</li></ul></div></details>
+    <div class="links"><a href="https://lightroom.uk/whats-on/larger-than-life/" target="_blank" rel="noopener">Book tickets</a> <a href="https://maps.google.com/?q=Lightroom+12+Lewis+Cubitt+Square+London" target="_blank" rel="noopener">On map</a></div>
     </div>
+
+    <div class="stop rv"><span class="gnum"></span>
+    <div class="when">12:50</div>
+    <h3>Granary Square &amp; Coal Drops Yard</h3>
+    <span class="chip">Wander</span>
+    <p class="lede">Out of Lightroom and two minutes down to the canal. Granary Square has over a thousand dancing fountain jets in the ground. Coal Drops Yard is two Victorian coal sheds whose roofs were pulled together until they kiss, now full of shops. Fifteen minutes, then back to the station.</p>
+    <figure><img src="img/coaldrops.jpg" alt="Coal Drops Yard, King's Cross" loading="lazy"><figcaption>Coal Drops Yard: the roofs that kiss</figcaption></figure>
+    </div>
+
+    <div class="transit"><b>13:10 · Northern line to London Bridge</b>
+      <p>From King&rsquo;s Cross St Pancras, take a southbound Northern line train via <b>Bank</b>, five stops to London Bridge, about 15 minutes. Use the Borough High Street exit.</p></div>
+    <div style="height:44px"></div>
 
   </div>
 </section>
 
 <section class="leg" id="c2">
-  <header class="chapter" style="--img:url('img/wallace.jpg')">
+  <header class="chapter" style="--img:url('img/borough.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
     <span class="chnum">II</span>
-    <div class="chin"><span class="eyebrow">Chapter two · 12:50 – 15:15</span><h2>Marylebone</h2><p>Down the prettiest high street in London to a long lunch under glass, in a house full of Fragonard and armour.</p></div>
+    <div class="chin"><span class="eyebrow">Chapter two · 13:25 – 15:30</span><h2>Borough &amp; the City</h2><p>Lunch eaten standing up, one bite at a time, then over the river into Diagon Alley.</p></div>
   </header>
   <div class="tl">
 
-    <div class="stop rv"><span class="gnum"></span>
-    <div class="when">12:50</div>
-    <h3>Marylebone High Street</h3>
-    <span class="chip">Wander</span>
-    <p class="lede">Out of the park at the York Gate and down Marylebone High Street. It is a village street that happens to be in Zone 1. Stop at Daunt Books, the Edwardian bookshop with oak galleries and a long skylight, then cut through to Manchester Square.</p>
-    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=English+Gardens%2C+Regent%27s+Park&amp;destination=The+Wallace+Collection%2C+Manchester+Square%2C+London&amp;waypoints=Daunt+Books+Marylebone%2C+London&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a></div>
-    </div>
-
     <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">13:15</div>
-    <h3>Lunch at The Wallace</h3>
-    <span class="chip book">Book 13:15</span>
-    <p class="lede">The Wallace Collection&rsquo;s restaurant sits in the old courtyard of Hertford House, under a glass roof, full of light and properly warm. It is the nicest room in London for a long lunch on a cold day, and you are already inside the museum when you finish.</p>
-    <figure><img src="img/wallace.jpg" alt="Hertford House, home of the Wallace Collection, across Manchester Square" loading="lazy"><figcaption>Hertford House across Manchester Square</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Lunch can be booked from 12:00 to 14:30, with the last sitting at 14:00. Walk-ins are taken if there is room.</li><li>There is an à la carte menu and a set lunch. Afternoon tea is also served from noon if you would rather go lighter.</li><li>Phone 020 7563 9505 if the online booking is full.</li></ul></div></details>
-    <div class="links"><a href="https://www.wallacecollection.org/visit/food-and-drink/" target="_blank" rel="noopener">Book a table</a> <a href="https://maps.google.com/?q=The+Wallace+Collection+London" target="_blank" rel="noopener">On map</a></div>
+    <div class="when">13:25</div>
+    <h3>Borough Market, grazing lunch</h3>
+    <span class="chip">Share everything</span>
+    <p class="lede">London&rsquo;s oldest food market, more than a thousand years in one form or another, under Victorian iron and the railway viaduct. Saturday is loud, packed and the most fun day to go. Don&rsquo;t sit down for lunch. Split up, grab one thing each, swap halfway, and repeat.</p>
+    <figure><img src="img/paella.jpg" alt="Paella being served at Borough Market" loading="lazy"><figcaption>The giant paella pans, Borough Market</figcaption></figure>
+    <details class="more" open><summary>The crawl</summary><div class="body"><ul><li><b>Raclette at Kappacasein.</b> Melted cheese scraped onto potatoes in front of you. Skip their famous toastie queue if it is huge.</li><li><b>Chorizo roll at Brindisa,</b> on the corner by Stoney Street. It is a cult favourite.</li><li><b>A plate from the giant paella pans</b> in the Borough Market Kitchen area, where the hot street food is.</li><li><b>Bread Ahead doughnut</b> for pudding, custard or salted caramel, and share it.</li><li><b>Monmouth Coffee</b> on Stoney Street for a flat white to carry onwards.</li></ul></div></details>
+    <div class="links"><a href="https://boroughmarket.org.uk/" target="_blank" rel="noopener">Market site</a> <a href="https://maps.google.com/?q=Borough+Market+London" target="_blank" rel="noopener">On map</a></div>
     </div>
 
-    <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">14:30</div>
-    <h3>The Wallace Collection</h3>
-    <span class="chip free">Free</span>
-    <p class="lede">A Victorian collector&rsquo;s townhouse left to the nation exactly as it was, with the rooms still red and gold. Three things are worth the time. Fragonard&rsquo;s <i>The Swing</i> is the most flirtatious painting in London. Hals&rsquo;s <i>Laughing Cavalier</i> is not actually laughing. The armoury is the best in the country outside the Tower.</p>
-    <figure><img src="img/swing.jpg" alt="Fragonard's The Swing" loading="lazy" style="aspect-ratio:4/3;object-position:center 35%"><figcaption>Fragonard, The Swing, 1767</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Downstairs, a small free display called <b>The Wallace Collection at War</b> closes on 25 October. It tells how the empty house hosted two exhibitions in 1942 while the art was evacuated.</li><li>Forty-five minutes is right. Leave by 15:15.</li></ul></div></details>
-    <div class="links"><a href="https://www.wallacecollection.org/whats-on/events/the-wallace-collection-at-war/" target="_blank" rel="noopener">The war display</a></div>
-    </div>
-
-    <div class="transit"><b>15:15 · To Trafalgar Square</b>
-      <p>Eight minutes&rsquo; walk to Bond Street, one stop east on the Elizabeth line to Tottenham Court Road, then ten minutes down Charing Cross Road past the bookshops. About twenty-five minutes in all.</p></div>
+    <div class="transit"><b>14:45 · Across London Bridge</b>
+      <p>Walk north over London Bridge. Look right for Tower Bridge and HMS Belfast, then up Gracechurch Street. It takes about 15 minutes.</p></div>
     <div style="height:44px"></div>
+
+    <div class="stop major rv"><span class="gnum"></span>
+    <div class="when">15:05</div>
+    <h3>Leadenhall Market</h3>
+    <span class="chip free">Free</span>
+    <p class="lede">A Victorian market arcade painted maroon, cream and gold under a glass roof. It played Diagon Alley in the first Harry Potter film, which neatly bookends Platform 9¾. On a Saturday the City&rsquo;s office workers are gone, so you get it almost to yourselves for photos.</p>
+    <figure><img src="img/leadenhall.jpg" alt="The painted glass roof of Leadenhall Market" loading="lazy"><figcaption>Leadenhall Market: Diagon Alley in the first film</figcaption></figure>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Most shops shut at weekends, but the arcade itself is always open, and the quiet is the point.</li><li>The blue door at 42 Bull&rsquo;s Head Passage stood in for the Leaky Cauldron entrance.</li></ul></div></details>
+    <div class="links"><a href="https://maps.google.com/?q=Leadenhall+Market+London" target="_blank" rel="noopener">On map</a></div>
+    </div>
 
   </div>
 </section>
 
 <section class="leg" id="c3">
-  <header class="chapter" style="--img:url('img/waterloo_dusk.jpg')">
+  <header class="chapter" style="--img:url('img/h22.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
     <span class="chnum">III</span>
-    <div class="chin"><span class="eyebrow">Chapter three · 15:40 – 18:15</span><h2>The River</h2><p>A painting newly in conversation, a walk across the Thames, the Film Festival&rsquo;s last weekend, and the sun going down behind Parliament.</p></div>
+    <div class="chin"><span class="eyebrow">Chapter three · 15:45 – 17:00</span><h2>The Sky</h2><p>Fifty-eight floors up in the tallest tower in the City, and it costs nothing.</p></div>
   </header>
   <div class="tl">
 
     <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">15:40</div>
-    <h3>National Gallery, Room 1</h3>
-    <span class="chip free">Free · opened Thursday</span>
-    <p class="lede">A new free show that opened two days earlier. Gainsborough&rsquo;s <i>Mr and Mrs Andrews</i>, the smug landed couple under the oak tree, is hung next to Yinka Shonibare&rsquo;s 1998 answer to it. His version uses headless mannequins in Dutch wax-print fabric, on loan from Canada. It is two works in one room and takes fifteen minutes, but the pairing stays with you.</p>
-    <figure><img src="img/andrews.jpg" alt="Gainsborough, Mr and Mrs Andrews" loading="lazy"><figcaption>Gainsborough, Mr and Mrs Andrews, about 1750</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Room 1 is the H J Hyams Room, just off the main entrance. It runs until 7 February 2027 and marks 300 years since Gainsborough was born.</li><li>With a spare twenty minutes, Van Gogh&rsquo;s <i>Sunflowers</i> is a few rooms away.</li><li>The gallery is open until 18:00 on Saturdays.</li></ul></div></details>
-    <div class="links"><a href="https://www.nationalgallery.org.uk/exhibitions/yinka-shonibare-and-thomas-gainsborough-a-conversation" target="_blank" rel="noopener">About it</a> <a href="https://maps.google.com/?q=National+Gallery+London" target="_blank" rel="noopener">On map</a></div>
-    </div>
-
-    <div class="transit"><b>16:15 · Over the Golden Jubilee Bridge</b>
-      <p>Down past Charing Cross and up onto the footbridge. Halfway across is the classic shot, with Parliament and the Eye upstream and St Paul&rsquo;s downstream.</p></div>
-    <div style="height:44px"></div>
-
-    <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">16:20</div>
-    <h3>The South Bank</h3>
-    <span class="chip">Wander</span>
-    <p class="lede">An hour and a half drifting east along the river, with something warm in hand. This is the Film Festival&rsquo;s closing weekend, so the BFI end is busier and livelier than usual.</p>
-    <figure><img src="img/bookmarket.jpg" alt="The book market under Waterloo Bridge" loading="lazy"><figcaption>The book market under Waterloo Bridge</figcaption></figure>
-    <details class="more" open><summary>On the way</summary><div class="body"><ul><li><b>Southbank Centre.</b> Quentin Blake&rsquo;s <i>Southbank Parade</i> is spread across the site and is free. In the Hayward&rsquo;s free project space, Musquiqui Chihying&rsquo;s <i>A Life of Navigation</i> is on until 20:00.</li><li><b>The book market</b> under Waterloo Bridge, London&rsquo;s only permanent open-air second-hand book market. The stalls pack up early if it turns wet.</li><li><b>BFI Southbank and the IMAX.</b> The festival&rsquo;s free Games Lounge and a choose-your-path immersive piece are both drop-in from 13:00 to 21:00 at the BFI IMAX.</li><li>Hot chocolate from the riverside bar at BFI Southbank, or the Southbank Centre food market behind the Royal Festival Hall.</li></ul></div></details>
-    <div class="links"><a href="https://www.southbankcentre.co.uk/" target="_blank" rel="noopener">Southbank Centre</a> <a href="https://whatson.bfi.org.uk/lff/" target="_blank" rel="noopener">LFF free events</a> <a href="https://maps.google.com/?q=Southbank+Centre+Book+Market" target="_blank" rel="noopener">On map</a></div>
-    </div>
-
-    <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">17:45</div>
-    <h3>Sunset from Waterloo Bridge</h3>
-    <p class="lede">Up the steps by the BFI and out to the middle of the bridge. The sun sets at 18:03 behind Parliament. Westminster goes into silhouette, the City and St Paul&rsquo;s catch the last of the light, and then every building on both banks switches on. Many people think this is the best view in London.</p>
-    <figure><img src="img/waterloo_dusk.jpg" alt="The Thames at dusk with the London Eye and Westminster" loading="lazy"><figcaption>Dusk on the river, looking west to Westminster</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>It will feel colder up there, which is why the coat matters. Fifteen minutes is enough.</li><li>Stand on the west side of the bridge for the sunset, then cross to the east side for St Paul&rsquo;s and the City as the lights come on.</li></ul></div></details>
-    <div class="links"><a href="https://maps.google.com/?q=Waterloo+Bridge+London" target="_blank" rel="noopener">On map</a></div>
+    <div class="when">15:45</div>
+    <h3>Horizon 22</h3>
+    <span class="chip book">Free · book a slot</span>
+    <p class="lede">The highest free viewing gallery in Europe, on level 58 of 22 Bishopsgate, about 254 metres up. That is far higher than the Sky Garden, and you look down on the top of the Gherkin. Floor-to-ceiling glass gives a 300-degree view: the Shard straight ahead, Tower Bridge below, and on a clear afternoon out to the edges of the city. It is five minutes&rsquo; walk from Leadenhall.</p>
+    <figure><img src="img/h22.jpg" alt="View from Horizon 22 over London" loading="lazy" style="object-position:center 85%"><figcaption>The view from level 58</figcaption></figure>
+    <details class="more" open><summary>Good to know</summary><div class="body"><ul><li>Saturdays it is open 10:00 to 17:00, so a 15:45 slot gives a full hour as the light starts going gold.</li><li>Free tickets are released every Monday at 10:00 for the next 14 days, so Saturday&rsquo;s are already out. Book now. If they are gone, some walk-in places are held back each day.</li><li>There is airport-style security, so travel light. A café and bar are up top.</li></ul></div></details>
+    <div class="links"><a href="https://horizon22.co.uk/book" target="_blank" rel="noopener">Book free slot</a> <a href="https://maps.google.com/?q=Horizon+22+22+Bishopsgate+London" target="_blank" rel="noopener">On map</a></div>
     </div>
 
   </div>
 </section>
 
 <section class="leg" id="c4">
-  <header class="chapter" style="--img:url('img/coventgarden.jpg')">
+  <header class="chapter" style="--img:url('img/brickart.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
     <span class="chnum">IV</span>
-    <div class="chin"><span class="eyebrow">Chapter four · 18:15 onwards</span><h2>The Evening</h2><p>Off the north end of the bridge into Covent Garden for something warm, then one train out to Brentwood.</p></div>
+    <div class="chin"><span class="eyebrow">Chapter four · 17:05 – 19:45</span><h2>Spitalfields &amp; Brick Lane</h2><p>Market lights, painted walls, chilli chocolate and a proper curry, and then the train is five minutes away.</p></div>
   </header>
   <div class="tl">
 
-    <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">18:15</div>
-    <h3>Supper in Covent Garden</h3>
-    <p class="lede">Ten minutes from the bridge, and the piazza is at its best once the lights are on. Dishoom on Upper St Martin&rsquo;s Lane is the easy choice on a cold night. Order chai, a black daal and a few small plates. It also works as a big snack if her aunt is cooking.</p>
-    <figure><img src="img/coventgarden.jpg" alt="Covent Garden market" loading="lazy"><figcaption>Covent Garden</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Dishoom takes small evening bookings only some of the time. Otherwise there is a walk-in queue that is long on Saturdays. Join it at about 18:15, before the dinner rush.</li><li>If the queue is too long, Flat Iron on Henrietta Street is quick and warm, as are the cafés in the market building.</li></ul></div></details>
-    <div class="links"><a href="https://www.dishoom.com/covent-garden/" target="_blank" rel="noopener">Dishoom</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Waterloo+Bridge%2C+London&amp;destination=Dishoom+Covent+Garden%2C+London&amp;travelmode=walking" target="_blank" rel="noopener">From the bridge</a></div>
+    <div class="stop rv"><span class="gnum"></span>
+    <div class="when">17:05</div>
+    <h3>Old Spitalfields Market</h3>
+    <span class="chip">Wander</span>
+    <p class="lede">Ten minutes&rsquo; walk up Bishopsgate. A big Victorian market hall with a glass roof and Saturday stalls of jewellery, prints and vintage, plus street-food kitchens that keep going into the evening. Browse here while the sun goes down at 18:03.</p>
+    <figure><img src="img/spitalfields.jpg" alt="Inside Old Spitalfields Market" loading="lazy"><figcaption>Old Spitalfields Market</figcaption></figure>
+    <div class="links"><a href="https://maps.google.com/?q=Old+Spitalfields+Market" target="_blank" rel="noopener">On map</a></div>
     </div>
 
     <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">19:15</div>
+    <div class="when">17:40</div>
+    <h3>Brick Lane: walls, chocolate, beigels</h3>
+    <p class="lede">Over Commercial Street into Brick Lane. The yards off it, around Hanbury Street and the old Truman Brewery, change their giant murals every few weeks. Blue hour is when they look best and the neon comes on.</p>
+    <figure><img src="img/darksugars.jpg" alt="Dark Sugars chocolate shop on Brick Lane" loading="lazy"><figcaption>Dark Sugars, 141 Brick Lane</figcaption></figure>
+    <details class="more" open><summary>Two stops worth queueing for</summary><div class="body"><ul><li><b>Dark Sugars</b> at number 141. Hot chocolate made with a pile of shaved chocolate, and the one to get has chilli in it. The shop is a cave of hand-made truffles too.</li><li><b>Beigel Bake</b> at number 159. It is open 24 hours, and has been there since 1974. The hot salt-beef beigel with mustard is the London classic. Share one as a starter, or take one to her aunt.</li><li>The Upmarket and Backyard Market at the Truman Brewery run until about 17:30 to 18:00 on Saturdays, so they will be packing up by now.</li></ul></div></details>
+    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Old+Spitalfields+Market&amp;destination=Beigel+Bake%2C+159+Brick+Lane%2C+London&amp;waypoints=Dark+Sugars%2C+141+Brick+Lane%2C+London&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a></div>
+    </div>
+
+    <div class="stop major rv"><span class="gnum"></span>
+    <div class="when">18:30</div>
+    <h3>Dinner at Gunpowder</h3>
+    <span class="chip book">Book 18:30</span>
+    <p class="lede">A tiny, buzzy Indian kitchen tucked down White&rsquo;s Row, and in the Michelin Guide. Small plates of home-style cooking from around India: spicy venison and vermicelli doughnut, lamb chops, the crab, chaat. Order five or six plates between two.</p>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>It is small and often full on Saturdays. Book online, and phone if online shows nothing.</li><li>Back-up plan: Dishoom Shoreditch is ten minutes away and takes walk-ins, or the curry houses on Brick Lane itself.</li><li>If her aunt is cooking, swap dinner for chai and two small plates.</li></ul></div></details>
+    <div class="links"><a href="https://www.gunpowderrestaurants.com/" target="_blank" rel="noopener">Book a table</a> <a href="https://maps.google.com/?q=Gunpowder+Spitalfields+White%27s+Row+London" target="_blank" rel="noopener">On map</a></div>
+    </div>
+
+    <div class="stop major rv"><span class="gnum"></span>
+    <div class="when">19:45</div>
     <h3>Elizabeth line to Brentwood</h3>
-    <p class="lede">Ten minutes&rsquo; walk up to Tottenham Court Road. Take any eastbound Elizabeth line train showing <b>Shenfield</b>, sit down, and get off at Brentwood about 44 minutes later, with no changes. Warley is a short taxi or lift from the station.</p>
-    <figure><img src="img/lizzie.jpg" alt="Elizabeth line platform at Tottenham Court Road" loading="lazy"><figcaption>Tottenham Court Road, eastbound</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Trains to Shenfield run every few minutes, so there is no fixed time to make. Leave whenever supper is done.</li><li>Trains showing Abbey Wood do not go to Brentwood. Only take one showing Shenfield.</li><li>Contactless works all the way to Brentwood.</li><li>No planned Elizabeth line closures were listed east of Liverpool Street for Saturday. Check TfL status on the day anyway.</li></ul></div></details>
-    <div class="links"><a href="https://tfl.gov.uk/tube-dlr-overground/status/" target="_blank" rel="noopener">TfL status</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tottenham+Court+Road+Station&amp;destination=Brentwood+Station%2C+Essex&amp;travelmode=transit" target="_blank" rel="noopener">Route</a></div>
+    <p class="lede">Five minutes&rsquo; walk to Liverpool Street. Take any eastbound Elizabeth line train showing <b>Shenfield</b> and get off at Brentwood about 35 to 40 minutes later, no changes. Warley is a short lift from the station.</p>
+    <figure><img src="img/lizzie.jpg" alt="Elizabeth line platform" loading="lazy"><figcaption>Elizabeth line, eastbound</figcaption></figure>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Trains run every few minutes, so there is no fixed time to catch.</li><li>Abbey Wood trains do not go to Brentwood. Only take one showing Shenfield.</li><li>Contactless works all the way. Check TfL status on the day.</li></ul></div></details>
+    <div class="links"><a href="https://tfl.gov.uk/tube-dlr-overground/status/" target="_blank" rel="noopener">TfL status</a> <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Liverpool+Street+Station&amp;destination=Brentwood+Station%2C+Essex&amp;travelmode=transit" target="_blank" rel="noopener">Route</a></div>
     </div>
 
   </div>
 </section>
 
-<section class="onday" id="onday">
-  <div class="leghead"><h2>Also on that Saturday</h2><div class="rule"></div></div>
+<section class="onday" id="swap">
+  <div class="leghead"><h2>Swap-ins &amp; what else is on</h2><div class="rule"></div></div>
   <div class="cards">
-    <div class="card"><span class="tag">On the route</span><h4>BFI London Film Festival</h4><span class="when2">Closing weekend · free strand</span><p>Andrew Davies talks about his screenwriting memoir at 13:00 in the Reuben Library. A free 2016-themed DJ night runs in the BFI bar from 21:00, if anyone is still in town.</p><a href="https://whatson.bfi.org.uk/lff/" target="_blank" rel="noopener">Programme</a></div>
-    <div class="card"><span class="tag">Swap-in · ticketed</span><h4>Frieze London &amp; Frieze Masters</h4><span class="when2">Regent&rsquo;s Park · until Sun 18</span><p>The paid fair in the tents beyond the sculpture. Worth it only for real art lovers, because it is a full afternoon and not cheap.</p><a href="https://www.frieze.com/fairs/frieze-london" target="_blank" rel="noopener">Tickets</a></div>
-    <div class="card"><span class="tag">Swap-in · free</span><h4>Yuko Mohri at the Barbican</h4><span class="when2">The Curve · 11:00 – 19:00</span><p>A free installation in the Barbican&rsquo;s long, curving gallery by Yuko Mohri, who is known for found-object pieces that move and make sound. It is a good rainy-day alternative to the South Bank.</p><a href="https://www.barbican.org.uk/" target="_blank" rel="noopener">Barbican</a></div>
-    <div class="card"><span class="tag off">If you fancy it</span><h4>Oktoberfest, twice</h4><span class="when2">Clapham Common · Olympic Park</span><p>The biggest Oktoberfest in the UK is on Clapham Common, with day sessions. BREW//LDN is at Queen Elizabeth Olympic Park. Both are loud and fun, and neither fits this plan.</p><a href="https://www.visitlondon.com/things-to-do/whats-on/things-to-do-this-weekend" target="_blank" rel="noopener">Listings</a></div>
-    <div class="card"><span class="tag off">Evening</span><h4><i>Love Never Dies</i> in concert</h4><span class="when2">London Palladium</span><p>The Phantom sequel in concert, five minutes from Oxford Circus. It is only worth it if she is staying in town late.</p><a href="https://www.visitlondon.com/things-to-do/whats-on/things-to-do-this-weekend" target="_blank" rel="noopener">Listings</a></div>
-    <div class="card"><span class="tag off">Heads-up</span><h4>Brentford v Liverpool</h4><span class="when2">West London</span><p>A Premier League match, with engineering works on west London lines as well. None of it touches this route, but it explains any crowded trains.</p></div>
+    <div class="card"><span class="tag">Brand new · big swap</span><h4>Absurd City</h4><span class="when2">Westfield London · opened 15 Oct</span><p>The Boomtown festival team&rsquo;s 80,000 sq ft surreal walk-through city, two days old. It needs three hours and is out west in White City, so it would replace Borough and the City.</p><a href="https://www.visitlondon.com/blog/wake-the-tiger-london" target="_blank" rel="noopener">What it is</a></div>
+    <div class="card"><span class="tag">Evening · Halloween</span><h4>Halloween at Kew</h4><span class="when2">Kew Gardens · from 18:00</span><p>A 1.5 km lit-up night trail with fire artists and performers, which started the night before. It is magic, but it sits in the far west and Brentwood is in the far east.</p><a href="https://www.visitlondon.com/things-to-do/event/50637755-halloween-at-kew" target="_blank" rel="noopener">Details</a></div>
+    <div class="card"><span class="tag">Sunset swap</span><h4>Sky Garden</h4><span class="when2">Fenchurch St · open until 21:00 Sat</span><p>Free, but you have to book. It is lower than Horizon 22 but open past sunset, so the lights coming on are the show. The outdoor terrace shuts earlier at weekends.</p><a href="https://skygarden.london/" target="_blank" rel="noopener">Book</a></div>
+    <div class="card"><span class="tag">Free · on the day</span><h4>Frieze Sculpture</h4><span class="when2">Regent&rsquo;s Park · park hours</span><p>Eleven big sculptures in the autumn leaves during Frieze art fair week. It is 15 minutes&rsquo; walk from Euston if she arrives early.</p><a href="https://www.frieze.com/article/frieze-sculpture-2026-announcement" target="_blank" rel="noopener">About it</a></div>
+    <div class="card"><span class="tag">Free · on the day</span><h4>Film Festival closing weekend</h4><span class="when2">BFI Southbank &amp; IMAX</span><p>Free drop-in games lounge and immersive pieces from 13:00 to 21:00, and a 2016-themed DJ night from 21:00.</p><a href="https://whatson.bfi.org.uk/lff/" target="_blank" rel="noopener">Programme</a></div>
+    <div class="card"><span class="tag off">Next time</span><h4>Diwali on the Square</h4><span class="when2">Trafalgar Square · Sun 25 Oct</span><p>The Mayor&rsquo;s free Diwali festival, with music, dance and food stalls. It is the weekend after, but worth knowing about.</p><a href="https://www.london.gov.uk/events/diwali-square-2026" target="_blank" rel="noopener">Details</a></div>
   </div>
-  <p class="sources">Gathered on 13 October from Visit London, Time Out, Londonist and the venues&rsquo; own pages. Free events can fill up, so check on the day.</p>
+  <p class="sources">Gathered 13 October from Time Out, Visit London, Londonist, Immersive Rumours, DesignMyNight and the venues&rsquo; own sites.</p>
 </section>
 
 <section class="prep" id="prep">
   <div class="leghead"><h2>Before the day</h2><div class="rule"></div></div>
   <div class="grid2">
     <div class="panel">
-      <h3>To do in advance</h3>
+      <h3>Book now</h3>
       <ul>
-        <li><span class="tick"></span>Book lunch at The Wallace for two, Saturday 13:15</li>
-        <li><span class="tick"></span>Check her train ticket against the diverted times. Wilmslow trains do not run direct to London this weekend</li>
-        <li><span class="tick"></span>Check the forecast again on Friday night</li>
-        <li><span class="tick"></span>Let her aunt know it will be about 20:00 at Brentwood station</li>
-        <li><span class="tick"></span>Warm layers: coat, scarf and gloves. It is 13°C at best and windy on the bridge</li>
-        <li><span class="tick"></span>Contactless card or phone for the Tube and the Elizabeth line</li>
-        <li><span class="tick"></span>A power bank, since it is a long day of photos and maps</li>
+        <li><span class="tick"></span>Lightroom, Wallace &amp; Gromit, Saturday 12:00, two adults, on lightroom.uk</li>
+        <li><span class="tick"></span>Horizon 22, free slot Saturday 15:45 for two, on horizon22.co.uk</li>
+        <li><span class="tick"></span>Gunpowder Spitalfields, Saturday 18:30 for two</li>
+        <li><span class="tick"></span>Check her train ticket against the diverted times</li>
+        <li><span class="tick"></span>Tell her aunt about 20:30 at Brentwood station</li>
+        <li><span class="tick"></span>Photo ID for Horizon 22 security, plus contactless for the Tube</li>
+        <li><span class="tick"></span>Warm coat and a power bank, since there are a lot of photos today</li>
       </ul>
     </div>
     <div class="panel">
-      <h3>If it rains after all</h3>
+      <h3>If something slips</h3>
       <ul>
-        <li><span class="dash"></span>Shorten the sculpture to twenty minutes and spend longer at the Wallace, which is all indoors</li>
-        <li><span class="dash"></span>The National Gallery is open until 18:00, so give it an extra hour and see the Sunflowers</li>
-        <li><span class="dash"></span>On the South Bank, go inside the Southbank Centre and the BFI. The book market may pack up</li>
-        <li><span class="dash"></span>Skip the bridge. The sunset view from the Royal Festival Hall&rsquo;s riverside windows is almost as good</li>
-        <li><span class="dash"></span>If her train is badly late, drop the park and start at the Wallace for lunch</li>
+        <li><span class="dash"></span>Train late: take a later Lightroom slot and cut Coal Drops Yard</li>
+        <li><span class="dash"></span>No Horizon 22 tickets: try the walk-in queue, or book Sky Garden for 17:30 and see sunset there</li>
+        <li><span class="dash"></span>Borough too crushed: Maltby Street Market in Bermondsey is quieter and about 15 minutes&rsquo; walk east</li>
+        <li><span class="dash"></span>Rain: everything big is under a roof. Only the walk over London Bridge gets wet, so take the Northern line one stop to Bank instead</li>
+        <li><span class="dash"></span>Gunpowder full: Dishoom Shoreditch walk-in, or a Brick Lane curry house</li>
       </ul>
     </div>
   </div>
@@ -621,12 +621,12 @@
 
 <div class="signoff">
   <span class="so-orn">❦</span>
-  <p class="so-line">One good day, then on to Warley.</p>
+  <p class="so-line">Cracking day, Gromit.</p>
 </div>
 
 <footer>
   <div class="wrap">
-    <details class="credits-d"><summary>Photo credits</summary><p class="credits">Via Wikimedia Commons. Frieze Sculpture by Paul Farmer and Waterloo Bridge at dusk by Roger Davies, both CC BY-SA 2.0 via Geograph. Hertford House across Manchester Square, CC BY-SA 2.0. South Bank book market by Mark Ahsmann, CC BY-SA 3.0. Elizabeth line platform by ShoreditchHighStreet, CC BY-SA 4.0. Fragonard and Gainsborough paintings are public domain. Covent Garden by ClemRutter, CC BY-SA.</p></details>
+    <details class="credits-d"><summary>Photo credits</summary><p class="credits">All via Wikimedia Commons. Leadenhall Market roof by Michael Garlick, CC BY-SA 2.0. Coal Drops Yard by Andy Li, CC0. Platform 9¾ by WFan, CC BY-SA 4.0. Borough Market by Robert Lamb, CC BY-SA 2.0. Paella at Borough Market by Alaskan Dude, CC BY 2.0. View from Horizon 22 by Bex Walton, CC BY 2.0. Brick Lane street art by Robert Lamb, CC BY-SA 2.0. Spitalfields Market by Acabashi, CC BY-SA 4.0. Dark Sugars by Victuallers, CC BY-SA 3.0. Elizabeth line platform by ShoreditchHighStreet, CC BY-SA 4.0.</p></details>
   </div>
 </footer>
 
@@ -645,7 +645,7 @@
   document.querySelectorAll('.rv').forEach(el=>rIO.observe(el));
   const links=[...document.querySelectorAll('nav.top .row a')];
   const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-30% 0px -60% 0px'});
-  ['weather','c1','c2','c3','c4','onday','prep'].forEach(id=>obs.observe(document.getElementById(id)));
+  ['weather','c1','c2','c3','c4','swap','prep'].forEach(id=>obs.observe(document.getElementById(id)));
   (function(){var body=document.body,dr=document.getElementById('drawer'),sc=document.getElementById('scrim'),
       mb=document.getElementById('menuBtn'),mc=document.getElementById('menuClose'),last=null;
     function open(){last=document.activeElement;body.classList.add('menu-open');dr.setAttribute('aria-hidden','false');mb.setAttribute('aria-expanded','true');var f=dr.querySelector('a');if(f)f.focus();}
