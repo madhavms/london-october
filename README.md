@@ -1,8 +1,8 @@
-# Sky, Clay & Spice
+# Market, Sky & Supper
 
 An afternoon London plan for Saturday 17 October 2026, starting and ending at Horley.
 
-Borough Market, Leadenhall Market, sunset at the Sky Garden, Wallace & Gromit at Lightroom King's Cross, then the 20:15 Thameslink from St Pancras, back in Horley by 21:15.
+Borough Market, Leadenhall Market, sunset at the Sky Garden, dinner at Roast in Borough Market's Floral Hall, then the 8:21 pm Thameslink from London Bridge, back in Horley by 9 pm.
 
 Live: https://madhavms.github.io/london-october/
 
