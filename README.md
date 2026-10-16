@@ -1,7 +1,9 @@
-# Sculpture to the Lights — London, Saturday 17 October 2026
+# Sky, Clay & Spice
 
-A cold-weather London day for two: Frieze Sculpture in Regent's Park, lunch and paintings at the Wallace Collection, the new Shonibare and Gainsborough room at the National Gallery, the South Bank on the Film Festival's closing weekend, sunset from Waterloo Bridge, then the Elizabeth line out to Brentwood.
+An afternoon-into-night London plan for Saturday 17 October 2026, starting and ending at Horley.
 
-Single-file site (`index.html` + `img/`), deployed to GitHub Pages on every push to `main`.
+Borough Market, Leadenhall Market, sunset at the Sky Garden, Wallace & Gromit at Lightroom King's Cross, dinner at Hoppers, then the late Thameslink from St Pancras.
 
-Photo credits (Wikimedia Commons, CC-licensed or public domain) are listed in the site footer.
+Live: https://madhavms.github.io/london-october/
+
+A single `index.html` with photos in `img/` (Wikimedia Commons, credited in the footer). Deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`.
