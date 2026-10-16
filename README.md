@@ -1,8 +1,8 @@
-# Market, Sky & Supper
+# Bankside at Dusk
 
 An afternoon London plan for Saturday 17 October 2026, starting and ending at Horley.
 
-Borough Market, Leadenhall Market, sunset at the Sky Garden, dinner at Roast in Borough Market's Floral Hall, then the 8:21 pm Thameslink from London Bridge, back in Horley by 9 pm.
+Borough Market, the Thames path past the Golden Hinde and the Globe, Tate Modern's new Turbine Hall commission (Tarek Atoui, Hold) and the free Level 10 deck at sunset, the Millennium Bridge to St Paul's, dinner at Oma in Borough Market, then the 8:21 pm Thameslink from London Bridge, back in Horley by 9 pm.
 
 Live: https://madhavms.github.io/london-october/
 
