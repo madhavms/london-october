@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Bridges &amp; Bombay · Sat 17 Oct 2026</title>
-<meta name="description" content="A London Saturday afternoon from Horley: Borough Market, the Thames path, Tate Modern&rsquo;s new Turbine Hall commission, sunset from Waterloo Bridge, an early dinner at Dishoom Covent Garden, and home by 9 pm.">
+<title>Covent Garden by Lamplight · Sat 17 Oct 2026</title>
+<meta name="description" content="A London Saturday afternoon from Horley around Covent Garden: Somerset House, the Piazza, Neal&rsquo;s Yard and Seven Dials, an early dinner at Dishoom, Chinatown and the river lights, and home by 9 pm.">
 <meta name="theme-color" content="#1a120c">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,7 +81,7 @@
   /* hero — cinematic */
   header.hero{position:relative;color:#f2f4ef;overflow:hidden;background:linear-gradient(160deg,var(--hero-a),var(--hero-b));
     min-height:min(92svh,980px);display:flex;align-items:flex-end}
-  header.hero .bg{position:absolute;inset:-4%;background-image:url("img/stpauls.jpg");background-size:cover;background-position:center 30%;opacity:.55;
+  header.hero .bg{position:absolute;inset:-4%;background-image:url("img/coventgarden.jpg");background-size:cover;background-position:center 30%;opacity:.55;
     animation:kenburns 26s ease-in-out infinite alternate}
   @keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.09)}}
   @media (prefers-reduced-motion:reduce){header.hero .bg{animation:none}}
@@ -295,7 +295,7 @@
   @media (max-width:820px){nav.top .row{display:none}}
   @media (prefers-reduced-motion:reduce){.drawer,.scrim{transition:none}}
   /* --- October additions --- */
-  header.hero .bg{background-image:url("img/stpauls.jpg");background-position:center 55%}
+  header.hero .bg{background-image:url("img/coventgarden.jpg");background-position:center 55%}
   .trains .eve{border-color:rgba(147,112,219,.7);background:rgba(70,45,120,.35)}
   .wx{padding:46px 0 10px}
   .wxgrid{display:grid;grid-template-columns:repeat(9,1fr);gap:8px;margin-top:18px}
@@ -331,13 +331,12 @@
 
 <nav class="top">
   <div class="inner">
-    <span class="brand">Bridges &amp; Bombay</span>
+    <span class="brand">By Lamplight</span>
     <div class="row">
-      <a href="#weather">Weather</a>
-      <a href="#c1">Borough</a>
-      <a href="#c2">Tate Modern</a>
-      <a href="#c3">Covent Garden</a>
-      <a href="#home">Home</a>
+      <a href="#c1">Arrive</a>
+      <a href="#c2">Covent Garden</a>
+      <a href="#c3">Dishoom</a>
+      <a href="#c4">Night lights</a>
       <a href="#swap">Swap-ins</a>
       <a href="#prep">Prep</a>
     </div>
@@ -352,10 +351,10 @@
   <div class="dsec"><span class="dlab">Chapters</span></div>
   <div class="dlinks">
     <a href="#weather">The weather</a>
-    <a href="#c1">I · Borough &amp; the riverside</a>
-    <a href="#c2">II · Tate Modern &amp; Waterloo sunset</a>
-    <a href="#c3">III · Dishoom &amp; Covent Garden</a>
-    <a href="#home">Train home</a>
+    <a href="#c1">I · In along the river</a>
+    <a href="#c2">II · Covent Garden &amp; Seven Dials</a>
+    <a href="#c3">III · Dinner at Dishoom</a>
+    <a href="#c4">IV · Night lights &amp; home</a>
     <a href="#swap">Swap-ins &amp; what else is on</a>
     <a href="#prep">Before the day</a>
   </div>
@@ -365,10 +364,10 @@
   <div class="bg"></div><div class="veil"></div><div class="frame"></div>
   <div class="wrap inner hero-reveal">
     <span class="eyebrow">An afternoon into evening · Saturday 17 October 2026</span>
-    <h1>Bridges<br>&amp; Bombay</h1>
-    <p class="lede" style="margin-top:18px">One direct train from Horley to London Bridge. A taste of Borough Market, then the Thames path past a Tudor galleon and Shakespeare&rsquo;s Globe to Tate Modern, where a brand-new sound installation fills the Turbine Hall. Walk the South Bank to Waterloo Bridge as the sun goes down behind Westminster, then cross into Covent Garden for an early dinner at Dishoom. After that, the market lit up at night and street performers on the piazza. Home on the direct train from Blackfriars, in Horley by nine.</p>
+    <h1>Covent Garden<br>by Lamplight</h1>
+    <p class="lede" style="margin-top:18px">One direct train from Horley to Blackfriars, then a riverside stroll into the grand courtyard of Somerset House. The afternoon is Covent Garden&rsquo;s market hall and street performers, the painted walls of Neal&rsquo;s Yard and the little shops of Seven Dials. An early dinner is booked at Dishoom, before the queues. Afterwards come Chinatown&rsquo;s lanterns, Trafalgar Square lit up, and the London Eye glowing from the footbridge over the Thames. The Tube is two stops from there, and the train gets her to Horley by nine.</p>
     <div class="trains">
-      <span>Horley <b>2:51 pm</b> → London Bridge 3:30 pm</span>
+      <span>Horley <b>2:51 pm</b> → Blackfriars 3:36 pm</span>
       <span class="eve">Blackfriars <b>8:14 pm</b> → Horley 9:02 pm</span>
     </div>
   </div>
@@ -377,21 +376,22 @@
 
 <div class="route" id="route">
   <div class="wrap rwrap">
-    <span class="rnode"><b>3:30 pm</b>London Bridge</span><span class="rline"></span>
-    <span class="rnode"><b>3:35 pm</b>Borough Market</span><span class="rline"></span>
-    <span class="rnode"><b>4:30 pm</b>Tate Modern</span><span class="rline"></span>
-    <span class="rnode"><b>5:25 pm</b>Waterloo Bridge</span><span class="rline"></span>
+    <span class="rnode"><b>3:36 pm</b>Blackfriars</span><span class="rline"></span>
+    <span class="rnode"><b>3:55 pm</b>Somerset House</span><span class="rline"></span>
+    <span class="rnode"><b>4:25 pm</b>Covent Garden</span><span class="rline"></span>
+    <span class="rnode"><b>5:05 pm</b>Neal&rsquo;s Yard</span><span class="rline"></span>
     <span class="rnode"><b>5:45 pm</b>Dishoom</span><span class="rline"></span>
-    <span class="rnode"><b>7:00 pm</b>Covent Garden</span><span class="rline"></span>
+    <span class="rnode"><b>7:00 pm</b>Chinatown</span><span class="rline"></span>
+    <span class="rnode"><b>7:40 pm</b>Jubilee Bridge</span><span class="rline"></span>
     <span class="rnode dep"><b>8:14 pm</b>Blackfriars</span>
   </div>
 </div>
 
 <div class="wrap facts">
   <div><div class="k">Weather</div><div class="v">11 – 13°C, dry</div><div class="d">Cloudy afternoon, clear evening</div></div>
-  <div><div class="k">On foot</div><div class="v">About 5 km</div><div class="d">Flat, river most of the way</div></div>
+  <div><div class="k">On foot</div><div class="v">About 4 km</div><div class="d">Flat, short hops, two Tube stops</div></div>
   <div><div class="k">To book</div><div class="v">Just dinner</div><div class="d">Dishoom, before 6:00 pm</div></div>
-  <div><div class="k">Sunset</div><div class="v">6:03 pm</div><div class="d">From Waterloo Bridge</div></div>
+  <div><div class="k">Sunset</div><div class="v">6:03 pm</div><div class="d">Lights on as you finish dinner</div></div>
 </div>
 
 <div class="wrap">
@@ -406,136 +406,137 @@
     <div class="h"><div class="t">7:00 pm</div><div class="i">🌙</div><div class="c">12°</div><div class="r">0%</div></div>
     <div class="h"><div class="t">8:00 pm</div><div class="i">🌙</div><div class="c">11°</div><div class="r">0%</div></div>
   </div>
-  <p class="wxnote"><b>Mild for October, and dry.</b> There is a slim chance of a spit of drizzle around 6:00 pm, then the sky clears for a crisp evening in Covent Garden. Waterloo Bridge is breezy, so bring a coat. The blue figures are the chance of rain.</p>
+  <p class="wxnote"><b>Mild for October, and dry.</b> A slim chance of drizzle around 6:00 pm lands while you&rsquo;re inside Dishoom, then the sky clears for a crisp walk past the lights. The footbridge is breezy, so bring a coat. The blue figures are the chance of rain.</p>
   <p class="sources">Forecast from Open-Meteo for central London, checked Friday 16 October.</p>
 </section>
 
 <section class="leg" id="c1">
-  <header class="chapter" style="--img:url('img/borough.jpg')">
+  <header class="chapter" style="--img:url('img/somerset.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
     <span class="chnum">I</span>
-    <div class="chin"><span class="eyebrow">Chapter one · 2:51 pm – 4:45 pm</span><h2>Borough &amp; the riverside</h2><p>Off the train into the food market, then west along the oldest stretch of the Thames path.</p></div>
+    <div class="chin"><span class="eyebrow">Chapter one · 2:51 pm – 4:20 pm</span><h2>In along the river</h2><p>Straight through to Blackfriars, then a riverside stroll into a Georgian palace courtyard.</p></div>
   </header>
   <div class="tl">
 
     <div class="stop major rv"><span class="gnum"></span>
     <div class="when">2:51 pm</div>
-    <h3>Horley → London Bridge</h3>
-    <p class="lede">One Thameslink train, no changes, about 40 minutes. London Bridge is its first stop in London, and Borough Market is three minutes from the station.</p>
+    <h3>Horley → Blackfriars</h3>
+    <p class="lede">One Thameslink train, no changes, about 45 minutes. Stay on past London Bridge. Blackfriars is the station built across the Thames on a bridge, so look out of the windows as you pull in.</p>
     <table class="ttable">
-      <tr><td><b>2:51 pm</b></td><td><b>Horley, Thameslink to Peterborough. London Bridge 3:30 pm</b></td></tr>
-      <tr><td>3:05 pm</td><td>Horley, Thameslink to Bedford. London Bridge 3:50 pm</td></tr>
-      <tr><td>3:21 pm</td><td>Horley, Thameslink to Peterborough. London Bridge 4:00 pm</td></tr>
+      <tr><td><b>2:51 pm</b></td><td><b>Horley, Thameslink to Peterborough. Blackfriars 3:36 pm</b></td></tr>
+      <tr><td>3:05 pm</td><td>Horley, Thameslink to Bedford. Blackfriars 3:56 pm</td></tr>
+      <tr><td>3:21 pm</td><td>Horley, Thameslink to Peterborough. Blackfriars 4:06 pm</td></tr>
     </table>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Buy an off-peak day return from Horley to London Terminals.</li><li>Inside London Bridge, follow the signs for the Borough High Street exit and Borough Market.</li><li>Times are from Realtime Trains, checked Friday 16 October. Check National Rail in the morning, as weekend engineering work on this line is common.</li></ul></div></details>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Buy an off-peak day return from Horley to London Terminals, which covers Blackfriars both ways.</li><li>Use the north bank exit, signed for Queen Victoria Street and the Embankment.</li><li>Times are from Realtime Trains, checked Friday 16 October. Check National Rail in the morning, as weekend engineering work on this line is common.</li></ul></div></details>
     <div class="links"><a href="https://www.nationalrail.co.uk/" target="_blank" rel="noopener">Live times</a> <a href="https://www.thameslinkrailway.com/travel-information/travel-updates" target="_blank" rel="noopener">Thameslink updates</a></div>
     </div>
 
     <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">3:35 pm</div>
-    <h3>Borough Market, tasters only</h3>
-    <span class="chip">Stalls shut 5:00 pm</span>
-    <p class="lede">London&rsquo;s oldest food market, under Victorian iron and the railway arches, at its liveliest on a Saturday. Keep it light, because dinner is early. Share one or two things, then something sweet.</p>
-    <figure><img src="img/paella.jpg" alt="Paella being served at Borough Market" loading="lazy"><figcaption>The giant paella pans, Borough Market</figcaption></figure>
-    <details class="more" open><summary>Pick two</summary><div class="body"><ul><li><b>Raclette at Kappacasein,</b> melted cheese scraped onto potatoes. Share one portion.</li><li><b>Bread Ahead doughnut,</b> custard or salted caramel, cut in half.</li><li><b>Monmouth Coffee</b> on Stoney Street, a flat white to carry along the river.</li><li>Walk past the brand-new <b>Dishoom Borough</b> in the Hop Exchange on Park Street, a minute from the market. It opened this week in a <i>Romeo and Juliet</i>-themed room.</li></ul></div></details>
-    <div class="links"><a href="https://boroughmarket.org.uk/" target="_blank" rel="noopener">Market site</a> <a href="https://maps.google.com/?q=Borough+Market+London" target="_blank" rel="noopener">On map</a></div>
-    </div>
-
-    <div class="stop rv"><span class="gnum"></span>
-    <div class="when">4:10 pm</div>
-    <h3>The Thames path to Tate Modern</h3>
-    <span class="chip free">Free · 20 minute walk</span>
-    <p class="lede">From the market, slip past Southwark Cathedral to the river and head west. Along Clink Street you pass the rose window of a ruined medieval bishop&rsquo;s palace. Then comes a full-size replica of the Golden Hinde, Drake&rsquo;s Tudor galleon, wedged into a tiny dock. Under Southwark Bridge you reach Shakespeare&rsquo;s Globe, the thatched wooden theatre rebuilt on the bank. Tate Modern&rsquo;s chimney is the next building along.</p>
-    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Borough+Market&amp;destination=Tate+Modern&amp;waypoints=Southwark+Cathedral%7CGolden+Hinde%7CShakespeare%27s+Globe&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a></div>
+    <div class="when">3:55 pm</div>
+    <h3>Somerset House</h3>
+    <span class="chip free">Free to walk in</span>
+    <p class="lede">A 15-minute walk west along the Victoria Embankment, past the old Temple gardens. Somerset House is a vast 18th-century palace around a cobbled courtyard where the fountains rise straight out of the ground. Walk through the courtyard and out onto the river terrace at the back for the view down the Thames, as the afternoon light starts going gold.</p>
+    <figure><img src="img/somerset.jpg" alt="The courtyard of Somerset House" loading="lazy"><figcaption>The Edmond J. Safra Fountain Court, Somerset House</figcaption></figure>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>This weekend Somerset House is hosting the <b>1-54 Contemporary African Art Fair</b> (15 to 18 October). It is ticketed, so it&rsquo;s a bonus if she&rsquo;s into art. The courtyard and terrace are free.</li><li>Covent Garden is five minutes north, up Wellington Street.</li></ul></div></details>
+    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Blackfriars+Station&amp;destination=Somerset+House&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a> <a href="https://www.somersethouse.org.uk/" target="_blank" rel="noopener">What&rsquo;s on</a></div>
     </div>
 
   </div>
 </section>
 
 <section class="leg" id="c2">
-  <header class="chapter" style="--img:url('img/waterloo.jpg')">
+  <header class="chapter" style="--img:url('img/nealsyard.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
     <span class="chnum">II</span>
-    <div class="chin"><span class="eyebrow">Chapter two · 4:30 pm – 5:45 pm</span><h2>Tate Modern &amp; a Waterloo sunset</h2><p>A power station turned into an instrument, then the most famous sunset view in London.</p></div>
+    <div class="chin"><span class="eyebrow">Chapter two · 4:25 pm – 5:40 pm</span><h2>Covent Garden &amp; Seven Dials</h2><p>The old flower market, a painted courtyard, and seven little streets meeting at a sundial.</p></div>
   </header>
   <div class="tl">
 
     <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">4:30 pm</div>
-    <h3>Turbine Hall: Tarek Atoui, <i>Hold</i></h3>
-    <span class="chip free">Free · opened 13 Oct</span>
-    <p class="lede">This year&rsquo;s giant Turbine Hall commission opened on Tuesday, so it is the newest big art piece in London this weekend. Atoui has turned the vast hall into a playable space, full of custom wind instruments, percussion and sculptural objects. Hidden microphones sample the instruments and the noise of the crowd, and software layers them back into the room. Live musicians perform in it during the run.</p>
-    <figure><img src="img/turbine.jpg" alt="The Turbine Hall at Tate Modern" loading="lazy"><figcaption>The Turbine Hall, shown here with an earlier commission</figcaption></figure>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Free, no ticket. Tate Modern is open until 9:00 pm on Saturdays.</li><li>With ten spare minutes, take the lift in the brick pyramid (the Blavatnik Building) to <b>Level 10</b>. It is a free open-air deck looking straight across at St Paul&rsquo;s.</li></ul></div></details>
-    <div class="links"><a href="https://www.tate.org.uk/whats-on/tate-modern/tarek-atoui" target="_blank" rel="noopener">About Hold</a> <a href="https://www.tate.org.uk/visit/tate-modern/level-10" target="_blank" rel="noopener">Level 10</a></div>
+    <div class="when">4:25 pm</div>
+    <h3>The Piazza &amp; market hall</h3>
+    <span class="chip free">Free · wander</span>
+    <p class="lede">The 1830s market building has an iron-and-glass roof, with the Apple Market&rsquo;s craft and jewellery stalls under it and a string quartet or opera singer often busking in the sunken lower courtyard. Out on the West Piazza, in front of St Paul&rsquo;s Church, the street performers draw a crowd. This is the square where Eliza Doolittle sold flowers in <i>My Fair Lady</i>.</p>
+    <figure><img src="img/coventgarden.jpg" alt="Covent Garden market hall lit at night" loading="lazy"><figcaption>The market hall under its lamps</figcaption></figure>
+    <details class="more" open><summary>Little extras nearby</summary><div class="body"><ul><li><b>Royal Opera House terrace.</b> The public foyer and rooftop terrace by the Piazza are usually free to walk into in the afternoon, with a view over the square. Check on the day.</li><li><b>Jubilee Market</b> on the south side is the cheaper, rummage-y one.</li><li><b>Milk Train</b> on Tavistock Street does soft-serve wrapped in candy floss, if she wants a sugar hit to share.</li></ul></div></details>
+    <div class="links"><a href="https://www.coventgarden.london/" target="_blank" rel="noopener">Covent Garden</a> <a href="https://maps.google.com/?q=Covent+Garden+Piazza" target="_blank" rel="noopener">On map</a></div>
     </div>
 
     <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">5:10 pm</div>
-    <h3>South Bank to Waterloo Bridge</h3>
-    <span class="chip free">Free · 15 minute walk</span>
-    <p class="lede">Head west along the river path past the Oxo Tower and Gabriel&rsquo;s Wharf, and climb the steps onto Waterloo Bridge. This is the view from the Kinks song &ldquo;Waterloo Sunset&rdquo;, and the one Londoners rate as the city&rsquo;s best. Looking west, you see Parliament, Big Ben and the London Eye with the sun sinking behind them. Turn round and the City and St Paul&rsquo;s are lit gold. Sunset is at 6:03 pm, so you get the best of the light on the way over.</p>
-    <figure><img src="img/waterloo.jpg" alt="Sunset over the Thames from Waterloo Bridge, with the London Eye and Parliament" loading="lazy"><figcaption>The view west from Waterloo Bridge</figcaption></figure>
-    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tate+Modern&amp;destination=Dishoom+Covent+Garden%2C+12+Upper+St+Martin%27s+Lane&amp;waypoints=Waterloo+Bridge&amp;travelmode=walking" target="_blank" rel="noopener">Walk to Dishoom</a></div>
+    <div class="when">5:05 pm</div>
+    <h3>Neal&rsquo;s Yard &amp; Seven Dials</h3>
+    <span class="chip">The photo stop</span>
+    <p class="lede">Five minutes up Neal Street. Neal&rsquo;s Yard is a tiny hidden courtyard of brightly painted walls, window boxes and flower pots, the most photographed corner of Covent Garden. Around the corner is Seven Dials, where seven streets meet at a sundial pillar laid out in the 1690s. Browse the small shops on Shorts Gardens and Monmouth Street. Dishoom is a three-minute walk away.</p>
+    <figure><img src="img/nealsyard.jpg" alt="The painted buildings of Neal's Yard" loading="lazy"><figcaption>Neal&rsquo;s Yard</figcaption></figure>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Choosing Keeping (stationery) and Magma (design books) are lovely browses.</li><li>Neal&rsquo;s Yard Dairy on Shorts Gardens hands out cheese tastings.</li></ul></div></details>
+    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Covent+Garden+Piazza&amp;destination=Dishoom+Covent+Garden%2C+12+Upper+St+Martin%27s+Lane&amp;waypoints=Neal%27s+Yard%7CSeven+Dials&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a></div>
     </div>
 
   </div>
 </section>
 
 <section class="leg" id="c3">
-  <header class="chapter" style="--img:url('img/coventgarden.jpg')">
+  <header class="chapter" style="--img:url('img/dishoom.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
     <span class="chnum">III</span>
-    <div class="chin"><span class="eyebrow">Chapter three · 5:45 pm – 8:00 pm</span><h2>Dishoom &amp; Covent Garden</h2><p>An early Bombay supper with the table already booked, then the market under its lamps.</p></div>
+    <div class="chin"><span class="eyebrow">Chapter three · 5:45 pm – 7:00 pm</span><h2>Dinner at Dishoom</h2><p>An early Bombay supper with the table already booked, while everyone else queues.</p></div>
   </header>
   <div class="tl">
 
     <div class="stop major rv"><span class="gnum"></span>
     <div class="when">5:45 pm</div>
-    <h3>Dinner at Dishoom Covent Garden</h3>
+    <h3>Dishoom Covent Garden</h3>
     <span class="chip book">Book 5:45 pm</span>
     <p class="lede">The original Dishoom, a homage to the old Irani cafés of Bombay, with ceiling fans, black-and-white family photos and the smell of the grill. Booking before 6:00 pm is the trick. After six, tables for two are walk-in only, and the Saturday queue runs 30 minutes to an hour.</p>
     <figure><img src="img/dishoom.jpg" alt="Chicken tikka at Dishoom" loading="lazy" style="object-position:center 60%"><figcaption>Chicken tikka at Dishoom</figcaption></figure>
     <details class="more" open><summary>What to order for two</summary><div class="body"><ul><li><b>House black daal,</b> simmered for over 24 hours. Everyone orders it, and they&rsquo;re right.</li><li><b>Chicken ruby</b> (a rich butter-style curry) or the <b>lamb biryani.</b></li><li><b>Okra fries</b> and <b>gunpowder potatoes</b> to share.</li><li><b>Garlic naan</b> and a <b>roomali roti.</b></li><li>Finish with a <b>house chai</b> and a <b>kulfi on a stick.</b></li></ul></div></details>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>12 Upper St Martin&rsquo;s Lane, WC2H 9FB. Open 9:00 am to midnight on Saturdays.</li><li>Book on dishoom.com. Any party size can book before 6:00 pm.</li><li>If the walk runs late, call ahead. They hold tables briefly, and the bar gives you free chai while you wait.</li></ul></div></details>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>12 Upper St Martin&rsquo;s Lane, WC2H 9FB. Open 9:00 am to midnight on Saturdays.</li><li>Book on dishoom.com. Any party size can book before 6:00 pm.</li><li>If no 5:45 pm slot shows, take the latest one before 6:00 pm and shuffle Neal&rsquo;s Yard to after dinner.</li></ul></div></details>
     <div class="links"><a href="https://www.dishoom.com/covent-garden/" target="_blank" rel="noopener">Book a table</a> <a href="https://maps.google.com/?q=Dishoom+Covent+Garden" target="_blank" rel="noopener">On map</a></div>
     </div>
-
-    <div class="stop major rv"><span class="gnum"></span>
-    <div class="when">7:00 pm</div>
-    <h3>Covent Garden after dark</h3>
-    <span class="chip free">Wander</span>
-    <p class="lede">Three minutes&rsquo; walk away. The old market building glows under its iron-and-glass roof, buskers play in the lower courtyard, and street performers work the crowd on the West Piazza in front of St Paul&rsquo;s Church. Duck up to Neal&rsquo;s Yard and Seven Dials for the little lit-up streets, and grab a dessert if there is room.</p>
-    <figure><img src="img/coventgarden.jpg" alt="Covent Garden market hall lit at night" loading="lazy"><figcaption>Covent Garden market hall at night</figcaption></figure>
-    <div class="links"><a href="https://www.coventgarden.london/" target="_blank" rel="noopener">What&rsquo;s on</a></div>
-    </div>
-
-    <div class="transit"><b>7:50 pm · To Blackfriars</b>
-      <p>Walk eight minutes down to <b>Embankment</b>. Take an eastbound District or Circle line train two stops to <b>Blackfriars</b>, about 5 minutes, and follow the signs to the National Rail platforms. Or walk the Embankment along the river in about 20 minutes.</p></div>
-    <div style="height:44px"></div>
 
   </div>
 </section>
 
-<section class="leg" id="home">
-  <header class="chapter" style="--img:url('img/stpauls.jpg')">
+<section class="leg" id="c4">
+  <header class="chapter" style="--img:url('img/eyenight.jpg')">
     <div class="cbg" style="background-image:var(--img)"></div><div class="cveil"></div>
-    <span class="chnum">↩</span>
-    <div class="chin"><span class="eyebrow">Home · 8:14 pm</span><h2>Back to Horley by nine</h2><p>Direct from Blackfriars, the station that sits on a bridge over the Thames.</p></div>
+    <span class="chnum">IV</span>
+    <div class="chin"><span class="eyebrow">Chapter four · 7:00 pm – 9:02 pm</span><h2>Night lights &amp; home</h2><p>Lanterns, fountains and the London Eye, then two Tube stops to the train.</p></div>
   </header>
   <div class="tl">
 
     <div class="stop major rv"><span class="gnum"></span>
+    <div class="when">7:00 pm</div>
+    <h3>Chinatown &amp; Leicester Square</h3>
+    <span class="chip free">Free · 5 min walk</span>
+    <p class="lede">Across Charing Cross Road to Gerrard Street, under the red paper lanterns and the carved gates. If there is room after Dishoom, get a bubble tea or a little fish-shaped custard waffle to walk with. Then cut through Leicester Square, all lit up for the cinemas.</p>
+    <figure><img src="img/chinatown.jpg" alt="Paper lanterns in Chinatown" loading="lazy"><figcaption>Lanterns over Chinatown</figcaption></figure>
+    </div>
+
+    <div class="stop major rv"><span class="gnum"></span>
+    <div class="when">7:25 pm</div>
+    <h3>Trafalgar Square → Golden Jubilee Bridge</h3>
+    <span class="chip">The photo of the night</span>
+    <p class="lede">Five minutes to Trafalgar Square, with the fountains, the lions and Nelson&rsquo;s Column floodlit and the National Gallery glowing behind. Then walk down Villiers Street to the Golden Jubilee footbridge beside Charing Cross and climb up. From the middle, the London Eye glows on the right, Big Ben and Parliament sit down the river, and Waterloo Bridge and St Paul&rsquo;s are behind you.</p>
+    <figure><img src="img/eyenight.jpg" alt="The London Eye and the Thames at night" loading="lazy"><figcaption>The view from the footbridge at night</figcaption></figure>
+    <div class="links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Leicester+Square&amp;destination=Embankment+Station&amp;waypoints=Trafalgar+Square%7CGolden+Jubilee+Bridges&amp;travelmode=walking" target="_blank" rel="noopener">Walking route</a></div>
+    </div>
+
+    <div class="transit"><b>7:55 pm · Embankment → Blackfriars</b>
+      <p>Embankment station is at the north foot of the footbridge. Take an eastbound District or Circle line train two stops to <b>Blackfriars</b>, about 5 minutes, and follow the signs to the National Rail platforms.</p></div>
+    <div style="height:44px"></div>
+
+    <div class="stop major rv"><span class="gnum"></span>
     <div class="when">8:14 pm</div>
     <h3>Blackfriars → Horley</h3>
-    <p class="lede">Thameslink, platform 1 on the timetable. Take a train for <b>Gatwick Airport</b> or <b>Horsham</b>, and check the board says it calls at Horley. It calls at London Bridge, then runs straight down.</p>
+    <p class="lede">Thameslink, platform 1 on the timetable. Take a train for <b>Gatwick Airport</b> or <b>Horsham</b>, and check the board says it calls at Horley.</p>
     <table class="ttable">
       <tr><td>7:54 pm</td><td>Blackfriars, Thameslink to Horsham. Horley 8:43 pm</td></tr>
       <tr><td><b>8:14 pm</b></td><td><b>Blackfriars, Thameslink to Gatwick Airport. Horley 9:02 pm</b></td></tr>
       <tr><td>8:24 pm</td><td>Blackfriars, Thameslink to Horsham. Horley 9:13 pm</td></tr>
       <tr><td>8:44 pm</td><td>Blackfriars, Thameslink to Gatwick Airport. Horley about 9:32 pm</td></tr>
     </table>
-    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Don&rsquo;t go via Victoria. No Southern trains from Victoria to Horley are timetabled on Saturday evening.</li><li>The off-peak return to London Terminals covers Blackfriars.</li><li>Tell her aunt about 9:00 pm at Horley station.</li><li>Times are from Realtime Trains, checked 16 October. Check them again over dinner.</li></ul></div></details>
+    <details class="more"><summary>Good to know</summary><div class="body"><ul><li>Don&rsquo;t go via Victoria. No Southern trains from Victoria to Horley are timetabled on Saturday evening.</li><li>Tell her aunt about 9:00 pm at Horley station.</li><li>Times are from Realtime Trains, checked 16 October. Check them again over dinner.</li></ul></div></details>
     <div class="links"><a href="https://www.nationalrail.co.uk/" target="_blank" rel="noopener">Live times</a></div>
     </div>
 
@@ -545,14 +546,14 @@
 <section class="onday" id="swap">
   <div class="leghead"><h2>Swap-ins &amp; what else is on</h2><div class="rule"></div></div>
   <div class="cards">
-    <div class="card"><span class="tag">Brand new · half-price food</span><h4>Dishoom Borough</h4><span class="when2">Hop Exchange, Park St · walk-in only</span><p>Opened this week. Food is 50% off during the soft launch, until 20 October. Bookings are full, so it is walk-in only, and the queue will be long. Try it at 5:00 pm instead of Covent Garden, then take the 8:21 pm home from London Bridge.</p><a href="https://www.dishoom.com/borough/" target="_blank" rel="noopener">Details</a></div>
-    <div class="card"><span class="tag">Stay south</span><h4>Millennium Bridge &amp; St Paul&rsquo;s</h4><span class="when2">Right outside Tate Modern</span><p>If you would rather not walk to Waterloo, cross the footbridge from the Death Eaters scene in <i>Half-Blood Prince</i> as St Paul&rsquo;s lights up.</p><a href="https://maps.google.com/?q=Millennium+Bridge+London" target="_blank" rel="noopener">On map</a></div>
-    <div class="card"><span class="tag">Indian dinner swap</span><h4>Oudh 1722</h4><span class="when2">66 Union Street · Sat from 5:30 pm</span><p>Awadhi cooking from Lucknow, by Aktar Islam of two-Michelin-star Opheem, in a Victorian townhouse near Borough.</p><a href="https://www.hot-dinners.com/Gastroblog/Test-drive/oudh-restaurant-review-indian-london-bridge-borough-aktar-islam" target="_blank" rel="noopener">Review</a></div>
-    <div class="card"><span class="tag">Livelier swap</span><h4>Wallace &amp; Gromit at Lightroom</h4><span class="when2">King&rsquo;s Cross · new this week</span><p>The giant new Aardman projection show. It would replace Tate, using Thameslink from London Bridge to St Pancras.</p><a href="https://lightroom.uk/whats-on/larger-than-life/" target="_blank" rel="noopener">Lightroom</a></div>
-    <div class="card"><span class="tag">Free · on the day</span><h4>Film Festival closing weekend</h4><span class="when2">BFI Southbank · under Waterloo Bridge</span><p>A free drop-in games lounge and immersive pieces until 9:00 pm, right on the walk to Waterloo Bridge.</p><a href="https://whatson.bfi.org.uk/lff/" target="_blank" rel="noopener">Programme</a></div>
-    <div class="card"><span class="tag off">Next time</span><h4>Diwali on the Square</h4><span class="when2">Trafalgar Square · Sun 25 Oct</span><p>The Mayor&rsquo;s free Diwali festival, with music, dance and food stalls, five minutes from Dishoom Covent Garden. It is the weekend after.</p><a href="https://www.london.gov.uk/events/diwali-square-2026" target="_blank" rel="noopener">Details</a></div>
+    <div class="card"><span class="tag">Sunset swap</span><h4>Waterloo Bridge at sunset</h4><span class="when2">Next to Somerset House · 6:03 pm</span><p>The &ldquo;Waterloo Sunset&rdquo; view, with Parliament and the Eye against the sky. It works if you book Dishoom for 5:30 pm, then walk down after dinner. You&rsquo;d catch the afterglow rather than the sunset itself.</p><a href="https://maps.google.com/?q=Waterloo+Bridge+London" target="_blank" rel="noopener">On map</a></div>
+    <div class="card"><span class="tag">Art · this weekend</span><h4>1-54 African Art Fair</h4><span class="when2">Somerset House · 15 to 18 Oct</span><p>The big contemporary African art fair, inside Somerset House this weekend. It is ticketed, so add an hour and arrive on the 2:21 pm instead.</p><a href="https://www.somersethouse.org.uk/" target="_blank" rel="noopener">Somerset House</a></div>
+    <div class="card"><span class="tag">Rainy-day swap</span><h4>London Transport Museum</h4><span class="when2">Covent Garden Piazza · until 6:00 pm</span><p>Vintage buses and Tube trains you can climb into, right on the Piazza. It is paid, and good if it pours.</p><a href="https://www.ltmuseum.co.uk/" target="_blank" rel="noopener">Museum</a></div>
+    <div class="card"><span class="tag">Brand new · half-price food</span><h4>Dishoom Borough</h4><span class="when2">Hop Exchange, Park St · walk-in only</span><p>Opened this week, with 50% off food until 20 October. It&rsquo;s walk-in only with a long queue, so it&rsquo;s one for another day.</p><a href="https://www.dishoom.com/borough/" target="_blank" rel="noopener">Details</a></div>
+    <div class="card"><span class="tag">Free · on the day</span><h4>Film Festival closing weekend</h4><span class="when2">BFI Southbank · over Waterloo Bridge</span><p>A free drop-in games lounge and immersive pieces until 9:00 pm, a 10-minute walk across the river.</p><a href="https://whatson.bfi.org.uk/lff/" target="_blank" rel="noopener">Programme</a></div>
+    <div class="card"><span class="tag off">Next time</span><h4>Diwali on the Square</h4><span class="when2">Trafalgar Square · Sun 25 Oct</span><p>The Mayor&rsquo;s free Diwali festival, with music, dance and food stalls, five minutes from Dishoom. It is the weekend after.</p><a href="https://www.london.gov.uk/events/diwali-square-2026" target="_blank" rel="noopener">Details</a></div>
   </div>
-  <p class="sources">Gathered 13 to 16 October from Time Out, Hot Dinners, DesignMyNight, Visit London, Tate, Dishoom and the venues&rsquo; own sites.</p>
+  <p class="sources">Gathered 13 to 16 October from The Nudge, Solosophie, Time Out, Visit London, Dishoom, Somerset House and the venues&rsquo; own sites.</p>
 </section>
 
 <section class="prep" id="prep">
@@ -565,16 +566,16 @@
         <li><span class="tick"></span>Off-peak day return, Horley to London Terminals</li>
         <li><span class="tick"></span>Aim for the 2:51 pm from Horley. The 3:05 pm is the fallback</li>
         <li><span class="tick"></span>Tell her aunt about 9:00 pm at Horley station</li>
-        <li><span class="tick"></span>Contactless for the two Tube stops, plus a coat for the bridge</li>
+        <li><span class="tick"></span>Contactless for the two Tube stops, plus a coat</li>
       </ul>
     </div>
     <div class="panel">
       <h3>If something slips</h3>
       <ul>
-        <li><span class="dash"></span>Train late: skip Borough, walk straight along the river to Tate</li>
-        <li><span class="dash"></span>Running behind for 5:45 pm: skip the Tate and walk straight on to Waterloo Bridge</li>
-        <li><span class="dash"></span>No 5:45 pm slot online: book the latest slot before 6:00 pm, or join the walk-in queue with free chai</li>
-        <li><span class="dash"></span>Rain: take a cab from Tate to Dishoom, about 10 minutes</li>
+        <li><span class="dash"></span>Train late: skip Somerset House, take the District line from Blackfriars to Embankment and walk up</li>
+        <li><span class="dash"></span>No 5:45 pm slot: book the latest slot before 6:00 pm, or join the walk-in queue with free chai</li>
+        <li><span class="dash"></span>Rain: London Transport Museum on the Piazza, and the market hall is covered</li>
+        <li><span class="dash"></span>Tired after dinner: skip Chinatown and walk straight down to Embankment</li>
         <li><span class="dash"></span>Missed the 8:14 pm: the next trains are at 8:24 pm and 8:44 pm</li>
       </ul>
     </div>
@@ -590,7 +591,7 @@
 
 <footer>
   <div class="wrap">
-    <details class="credits-d"><summary>Photo credits</summary><p class="credits">All via Wikimedia Commons. St Paul&rsquo;s from the Millennium Bridge by Chris English, CC BY-SA 3.0. Tate Modern Turbine Hall by Matt Brown, CC BY 2.0. Waterloo Bridge sunset by Jwslubbock, CC BY-SA 4.0. Covent Garden market at night by N1ugl, CC BY-SA 3.0. Dishoom chicken tikka by Dale Cruse, CC BY 2.0. Borough Market by Robert Lamb, CC BY-SA 2.0. Paella at Borough Market by Alaskan Dude, CC BY 2.0.</p></details>
+    <details class="credits-d"><summary>Photo credits</summary><p class="credits">All via Wikimedia Commons. Covent Garden market at night by N1ugl, CC BY-SA 3.0. Somerset House courtyard by Steve Daniels, CC BY-SA 2.0. Neal&rsquo;s Yard by Bex Walton, CC BY 4.0. Dishoom chicken tikka by Dale Cruse, CC BY 2.0. Chinatown lanterns by Boris Stefanik, CC0. Thames and London Eye at night by Janet Swisher, CC BY-SA 3.0.</p></details>
   </div>
 </footer>
 
@@ -609,7 +610,7 @@
   document.querySelectorAll('.rv').forEach(el=>rIO.observe(el));
   const links=[...document.querySelectorAll('nav.top .row a')];
   const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-30% 0px -60% 0px'});
-  ['weather','c1','c2','c3','home','swap','prep'].forEach(id=>obs.observe(document.getElementById(id)));
+  ['weather','c1','c2','c3','c4','swap','prep'].forEach(id=>obs.observe(document.getElementById(id)));
   (function(){var body=document.body,dr=document.getElementById('drawer'),sc=document.getElementById('scrim'),
       mb=document.getElementById('menuBtn'),mc=document.getElementById('menuClose'),last=null;
     function open(){last=document.activeElement;body.classList.add('menu-open');dr.setAttribute('aria-hidden','false');mb.setAttribute('aria-expanded','true');var f=dr.querySelector('a');if(f)f.focus();}

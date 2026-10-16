@@ -1,8 +1,8 @@
-# Bridges & Bombay
+# Covent Garden by Lamplight
 
 An afternoon London plan for Saturday 17 October 2026, starting and ending at Horley.
 
-Borough Market, the Thames path past the Golden Hinde and the Globe, Tate Modern's new Turbine Hall commission (Tarek Atoui, Hold), sunset from Waterloo Bridge, an early dinner at Dishoom Covent Garden, Covent Garden after dark, then the 8:14 pm Thameslink from Blackfriars, back in Horley by 9 pm.
+Thameslink to Blackfriars, a riverside walk to Somerset House, Covent Garden's Piazza and market hall, Neal's Yard and Seven Dials, an early 5:45 pm dinner at Dishoom Covent Garden, Chinatown, Trafalgar Square and the Golden Jubilee footbridge at night, then the 8:14 pm Thameslink from Blackfriars, back in Horley by 9 pm.
 
 Live: https://madhavms.github.io/london-october/
 
